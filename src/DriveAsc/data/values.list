@@ -1,0 +1,842 @@
+﻿ACTFAULT
+0: На выбеге
+1: Процедура аварийного останова
+;
+
+OPMODE
+0: Цифровое задание скорости
+1: Аналоговое задание скорости
+2: Цифровое задание тока/момента
+3: Аналоговое задание тока/момента
+4: Электронный редуктор (мастер/ведомый)
+5: Внешнее задание траектории
+6: Управление по SERCOS
+7: Зарезервировано
+8: Встроенная таблица перемещения
+;
+
+KEYLOCK
+0: Разблокировано
+1: Блокировано
+2: Только просмотр
+;
+
+LEDSTAT
+0: Дисплей отключен
+1: Состояние привода
+2: Адрес в цифровой сети
+3: Скорость передачи CAN
+4: Параметр S01 (Kp контура скорости)
+5: Параметр S02 (Tn контура скорости)
+6: Параметр S03 (смещение точки задания)
+7: Параметр S04 (номер двигателя)
+8: Параметр S05 (выбор энкодера)
+9: Параметр S06 (выбора тормоза)
+10: Параметр S07 (выбор мультидрайва)
+11: Загрузка данных из EEPROM
+12: Сохранение данных в EEPROM
+13: Установка заводских данных
+14: Новая конфигурация привода
+15: Сообщения об ошибках
+16: Серийный номер привода
+;
+
+LED1
+.0: Сегмент "a" (верх)
+.1: Сегмент "b" (верх-право)
+.2: Сегмент "c" (низ-право)
+.3: Сегмент "d" (низ)
+.4: Сегмент "e" (низ-лево)
+.5: Сегмент "f" (верх-лево)
+.6: Сегмент "g" (центр)
+;
+
+LED2
+.0: Сегмент "a" (верх)
+.1: Сегмент "b" (верх-право)
+.2: Сегмент "c" (низ-право)
+.3: Сегмент "d" (низ)
+.4: Сегмент "e" (низ-лево)
+.5: Сегмент "f" (верх-лево)
+.6: Сегмент "g" (центр)
+;
+
+LED3
+.0: Сегмент "a" (верх)
+.1: Сегмент "b" (верх-право)
+.2: Сегмент "c" (низ-право)
+.3: Сегмент "d" (низ)
+.4: Сегмент "e" (низ-лево)
+.5: Сегмент "f" (верх-лево)
+.6: Сегмент "g" (центр)
+;
+
+STOPMODE
+0: На выбеге
+1: По рампе
+;
+
+UVLTMODE
+0: Отключен
+1: Включен
+;
+
+ENGAGE
+0: No synchronisation
+1: Synchronisation via velocity
+2: Declutch
+3: Synchronisation via velocity
+4: Synchronisation via velocity
+5: Synchronisation via velocity
+6: synchronisation via position with constant acceleration (linear)
+7: synchronisation via position with customer defined profile
+8-11: Зарезервировано
+12: declutching, the slave slows down via a customer given profile
+;
+
+GEARFILT
+1: 318 Гц
+2: 159 Гц
+3: 80 Гц
+4: 40 Гц
+5: 20 Гц
+6: 10 Гц
+7: 5 Гц
+8: 2.5 Гц
+;
+
+DPWM
+0: Частота ШИМ 8 КГц, контур тока 16 КГц, контур положения 4 КГц
+1: Частота ШИМ 16 КГц, контур тока 32 КГц, контур положения 4 КГц
+2: Частота ШИМ 16 КГц, контур тока 16 КГц, контур положения 4 КГц
+3: Частота ШИМ 8 КГц, контур тока 16 КГц, контур положения 8 КГц
+;
+
+PMODE
+0: Однофазная работа (с ограничением тока), режим не доступен в S 34x
+1: Трехфазная работа, ток ограничен, предупреждение n05 при обрыве фазы
+2: Трехфазная работа, ошибка F19 при провале звена пост. тока
+3: Трехфазная работа, ток ограничен, предупреждение n05 при обрыве фазы
+;
+
+VBUSBAL
+0: 115 В
+1: 230 В
+2: 400 В
+3: 480 В
+;
+
+VBUSMAX
+0: 235 В
+1: 455 В
+2: 800 В
+3: 900 В
+;
+
+STAGECODE
+0: Ошибка аппаратной части
+1: S303
+2: S306
+3: S310
+4: S341
+5: S343
+6: S346
+7-9: Зарезервировано
+10: S701
+11: S703
+12: S706
+13: S710
+14: S724
+15: S712P (30A / 400В)
+16: S724P (72A / 400В)
+17: S748
+18: S772
+19-41: Зарезервировано
+42: S701
+43: S703
+44: S706
+45: S712
+46: S724
+47: S721P (30A / 400В)
+48: S724P (72A / 230В)
+;
+
+CLRWARN
+0: Предупреждение отображается до устранения причины
+1: Предупреждение отображается в момент возникновения причины
+;
+
+RESOLVER
+0: -20% (ослабление)
+1: Без усиления
+2: +20% (усиление)
+;
+
+DIR
+.0: positive count direction for |FBTYPE| unit
+.1:
+.2: positive count direction for |EXTPOS| unit
+.3:
+.4: positive count direction for |GEARMODE| unit
+.5:
+.6: inverse commutation
+.7: inverse encoder absolute position (ENDAT,HYPERFACE, BISS)
+;
+
+IN1
+0: Отключен
+1: Активен
+;
+
+IN2
+0: Отключен
+1: Активен
+;
+
+IN3
+0: Отключен
+1: Активен
+;
+
+IN4
+0: Отключен
+1: Активен
+;
+
+O1
+0: Отключен
+1: Активен
+;
+
+O2
+0: Отключен
+1: Активен
+;
+
+REMOTE
+0: Блокировка
+1: Готов
+;
+
+READY
+0: Блокировка
+1: Готов
+;
+
+SSIGRAY
+0: Бинарный
+1: Код Грея
+;
+
+SSIINV
+0: По часовой стрелке
+1: Против часовой стрелки
+2: По часовой стрелке (разрешение 12 бит)
+3: Против часовой стрелки (разрешение 12 бит)
+;
+
+SSITOUT
+0: 13 мкс
+1: 3 мкс
+;
+
+HALLDIR
+0: 1,5,4,6,2,3
+1: 1,3,2,6,4,5
+;
+
+MTYPE
+1: permanent magnet motor
+2: permanent magnet motor with Id current control
+3: Асинхронный двигатель
+;
+
+SLTEMPM
+0: По умолчанию
+1: Задано пользователем в MAXTEMPM
+;
+
+MBRAKE
+0: Brake function is disabled
+1: Brake function is enabled
+2: holding brake is deactivated after the wake&shake mode
+;
+
+BQMODE
+0: Отключен
+1: compatibility mode
+2: PID-T2 filter (1st-order lag compensator)
+3: notch / bi-quad filter
+4: 2nd-order low-pass filter
+;
+
+FFTSW
+.0: current feed forward added after the current set point filter
+.1: extended current feed forward functionality (new)
+.2: inertia feed forward switched on
+.3: current feed forward linear interpolation off
+.4: velocity linear interpolation off
+;
+
+ANCNFG
+0: (Xcmd=Analog In 1)
+1: v_cmd=Analog In 1, Icmd=Analog In 2
+2: Analog In 1 = nsoll, Analog In 2 = Isoll
+3: Xcmd=Analog In 1, Ipeak1=Analog In 2
+4: Xcmd=Analog In 1+Analog In 2
+5: Xcmd=Analog In 1*Analog In 2
+6: Electronic Gearing
+7: Analog In 1 = Isoll, Analog In 2 = Nmax
+8: Analog In 1 = Psoll
+//9: ???
+10: Reserved
+//11-12: ???
+13: Xcmd=Analog In 1, Ipeak1=Analog In 2
+14: Xcmd=Analog In 1, Ipeak1=Analog In 2
+;
+
+REFLS
+0: Change direction at NSTOP and PSTOP
+1: Change direction at PSTOP, create error message F26 (limit switch) at NSTOP
+2: Change direction at NSTOP, create error message F26 (limit switch) at PSTOP
+3: Create error message F26 (limit switch) at NSTOP and PSTOP
+;
+
+COGMODE
+0: Без компенсации
+1: Компенсация
+;
+
+GEARMODE
+0: No Feedback
+1: X3 (24V Pulse/Direction)
+2: X3 (24V ROD)
+3: X5 (5V ROD)
+4: X5 (5V pulse and direction)
+5: X5 (SSI)
+6: X1 (5V)
+7: X1 (12V)
+8: X1 (EnDat)
+9: X1 (HIPERFACE)
+10: X1 (5V ROD)
+25: X1 (SSI)
+27: X1 (5V)
+30: X1 (ROD)
+;
+
+DREF
+0: negative - negative
+1: positive - negative
+2: shortest distance - negative
+4: negative movement without reversing - homing direction negativ
+5: potitive movement without reversing - homing direction positive
+16: negative - positive
+17: positive - positive
+18: shortest distance - positive
+32: negative - shortest distance
+33: positive - shortest distance
+34: shortest distance - shortest distance
+;
+
+DIROUT
+.0: инверсный Q1 (ПЧ)
+.1: инверсный Q2 (ПЧ)
+.2: инверсный Q3 (опция)
+.3: инверсный Q4 (опция)
+.4: инверсный Q5 (опция)
+.5: инверсный Q6 (опция)
+.6: инверсный Q7 (опция)
+.7: инверсный Q8 (опция)
+.8: инверсный Q9 (опция)
+.9: инверсный Q10 (опция)
+.10: инверсный Q11 (виртуальный)
+.11: инверсный Q12 (виртуальный)
+.12: инверсный Q13 (виртуальный)
+.13: инверсный Q14 (виртуальный)
+.14: инверсный Q15 (виртуальный)
+.15: инверсный Q16 (виртуальный)
+.16: инверсный Q17 (виртуальный)
+.17: инверсный Q18 (виртуальный)
+;
+
+DRVCNFG2
+.0: Зарезервирован
+.1: Deactivate permanent latch functionality of digital input 1 (IN1MODE 26)
+.2: Deactivate permanent latch functionality of digital input 2 (IN2MODE 26)
+.3: Зарезервирован
+.4: Зарезервирован
+.5: Зарезервирован
+.6: Зарезервирован
+.7: Зарезервирован
+.8: Use encoder memory to save reference offset
+.9: Зарезервирован
+.10: Зарезервирован
+.11: Зарезервирован
+.12: Зарезервирован
+.13: Зарезервирован
+.14: Prevent reset of warning n23 with CLRFAULT
+.15: Зарезервирован
+.16: Prevent saving of reference offset (ROFFSABS) after reference move with multiturn encoder
+.17: Force start of following motion task at v=0 when switching sine moiton tasks on the fly
+.18: Activate oscilloscope sample rate of 62.5µs (16kHz; default 4kHz)
+.19: Activate usage of signed voltage with ANCNFG = 8
+.20: Switch off monitoring of sense voltage at X1
+.21: Set software enable to 0 with setting of STO Enable
+.22: Activate saving of position overflow (Attention, see manual!)
+.23: Зарезервирован
+.24: Зарезервирован
+.25: Зарезервирован
+.26: Зарезервирован
+.27: Activate field weakening with voltage control for induction motor
+.28: Зарезервирован
+.29: Зарезервирован
+.30: Зарезервирован
+.31: Activate using CAN functions in object channel by writing
+;
+
+DRVCNFG3
+.0: Зарезервирован
+.1: Зарезервирован
+.2: Activate 16kHz sample rate for digital inputs (default 4kHz)
+.3: Activate maximum resolution for ramp generator
+.4: Allow reset without coldstart of more errors 
+.5: Зарезервирован
+.6: Activate (EtherCAT) transmission of latched distributed clock (default - position)
+.7: Activate usage of PRD (instead PFB) with COGMODE 1 and 2 (rotary motors only)
+.8: Activate delay for motion task start (until brake released)
+.9: Зарезервирован
+.10: Зарезервирован
+.11: Зарезервирован
+.12: Зарезервирован
+.13: Зарезервирован
+.14: Зарезервирован
+.15: Зарезервирован
+.16: Activate enhanced EtherCAT XML version (motion tasks, free mapping; fw >=5.18)
+.17: Зарезервирован
+.18: Deactivate influence of CAN objects 6083/ 6084 on velocity loop ramps
+.19: Activate temperature depending increase of ICONT (10%)
+.20: Activate output of position command (instead of actual) for encoder emulation
+.21: Deactivate ROD rmonitoring (x5; S300 old hardware only)
+.22: Activate looking at INPOS when switching to OPMODE 4
+.23: Activate immediate use of current command via object 6071 (default - 1ms task)
+.24: Deactivate field weakening
+.25: Deactivate stop to 0 when switching OPMODE
+.26: Activate ramp correction when cancelling motion task (no overtravel)
+.27: Зарезервирован
+.28: Activate encoder emulation output based on external encoder (PFB0)
+.29: Зарезервирован
+.30: Activate cyclic EtherCAT commands with power stage disabled
+.31: Allow 90° phase shift (instead of 45°) for field weakening
+;
+
+NREF
+0: Set Reference at actual position
+1: Traverse to the reference switch with zero-mark recognition
+2: Move to hardware limit-switch, with zeromark recognition
+3: Move to reference switch, without zeromark recognition
+4: Move to hardware limit-switch, without zero-mark recognition
+5: Move to the next zero-mark of the feedback unit
+6: Set Reference at actual position, without loosing target position
+7: Move to mechanical stop with zero-mark recognition
+8: Move to absolute SSI-position
+9: Move to mechanical stop without zeromark recognition
+;
+
+AUTOHOME
+0: no automatic homing prcedure started
+1: After the drive is enabled the homing procedure |MH| is started automatic
+2: аналогично 1, но только если не в исх.
+;
+
+REFMODE
+0: Resolver- or singleturn encoder-zero
+1: digital INPUT1
+2: digital INPUT2
+3: digital INPUT3
+4: digital INPUT4
+5: Data-Pin of connector X1
+6: Zero pulse of the connector X5
+7: Zero crossing of the absolute multiturn encoder (per rev)
+;
+
+O1MODE
+0: Off
+1: v_act<|O1TRIG|
+2: v_act>|O1TRIG|
+3: Mains-RTO
+4: Regen off
+5: Sw_limit
+6: Pos.>x
+7: InPos
+8: I_act<|O1TRIG|
+9: I_act>|O1TRIG|
+10: Ferror
+11: I2T
+//12-15: ???
+16: Next-InPos
+17: Error/Warn
+18: Error
+19: DC_Link>|O1TRIG|
+20: DC_Link < |O1TRIG|
+21: ENABLE
+22: Zero_pulse
+23: Slot-DPR
+24: Ref_OK
+//25-30: ???
+31: Analog In 1< |O1TRIG|
+32: Analog In 1> |O1TRIG|
+33: Analog In 2 < |O1TRIG|
+34: Analog In 2 > |O1TRIG|
+35: Internal Enable
+36: Logical OR= |DRVSTAT| - |O1TRIG|
+37: Logical AND= |DRVSTAT| -|O1TRIG|
+38: Logical OR= |TRJSTAT| - |O1TRIG|
+39: Logical AND= |TRJSTAT| - |O1TRIG|
+40: Logical OR= |POSRSTAT| - |O1TRIG|
+41: Logical AND= |POSRSTAT| - |O1TRIG|
+42: Internal temperature warning
+43: The sign of the actual velocity
+44: Target Speed deviation= abs(Target Speed - Actual Speed) < x
+45: Target Speed deviation= abs(Target Speed - Actual Speed) > x
+46: Current in Window (low active)
+47: Current not in Window (low active)
+48: Logical NOR= |DRVSTAT| - |O1TRIG|
+49: Logical NAND= |DRVSTAT| -|O1TRIG|
+50: Logical NOR= |TRJSTAT| - |O1TRIG|
+51: Logical NAND= |TRJSTAT| - |O1TRIG|
+52: Logical AND= |POSRSTAT| - |O1TRIG|
+53: Master/Slave synchron
+54: prepared for moving
+55: Actual master-slave status
+56: Actual master-slave status
+//57-59: ???
+60: Error present (Low-active)
+61: MT Target Velocity reached (Highactive)
+62: MT Target Velocity reached (Low-active)
+//63-68: ???
+69: Master/ Slave synchronous; Slave Speed > 0
+70: STO-Status
+71: Actual Speed within Window
+72: Actual Spped not within Window
+;
+
+O2MODE
+0: Off
+1: v_act<|O1TRIG|
+2: v_act>|O1TRIG|
+3: Mains-RTO
+4: Regen off
+5: Sw_limit
+6: Pos.>x
+7: InPos
+8: I_act<|O1TRIG|
+9: I_act>|O1TRIG|
+10: Ferror
+11: I2T
+//12-15: ???
+16: Next-InPos
+17: Error/Warn
+18: Error
+19: DC_Link>|O1TRIG|
+20: DC_Link < |O1TRIG|
+21: ENABLE
+22: Zero_pulse
+23: Slot-DPR
+24: Ref_OK
+//25-30: ???
+31: Analog In 1< |O1TRIG|
+32: Analog In 1> |O1TRIG|
+33: Analog In 2 < |O1TRIG|
+34: Analog In 2 > |O1TRIG|
+35: Internal Enable
+36: Logical OR= |DRVSTAT| - |O1TRIG|
+37: Logical AND= |DRVSTAT| -|O1TRIG|
+38: Logical OR= |TRJSTAT| - |O1TRIG|
+39: Logical AND= |TRJSTAT| - |O1TRIG|
+40: Logical OR= |POSRSTAT| - |O1TRIG|
+41: Logical AND= |POSRSTAT| - |O1TRIG|
+42: Internal temperature warning
+43: The sign of the actual velocity
+44: Target Speed deviation= abs(Target Speed - Actual Speed) < x
+45: Target Speed deviation= abs(Target Speed - Actual Speed) > x
+46: Current in Window (low active)
+47: Current not in Window (low active)
+48: Logical NOR= |DRVSTAT| - |O1TRIG|
+49: Logical NAND= |DRVSTAT| -|O1TRIG|
+50: Logical NOR= |TRJSTAT| - |O1TRIG|
+51: Logical NAND= |TRJSTAT| - |O1TRIG|
+52: Logical AND= |POSRSTAT| - |O1TRIG|
+53: Master/Slave synchron
+54: prepared for moving
+55: Actual master-slave status
+56: Actual master-slave status
+//57-59: ???
+60: Error present (Low-active)
+61: MT Target Velocity reached (Highactive)
+62: MT Target Velocity reached (Low-active)
+//63-68: ???
+69: Master/ Slave synchronous; Slave Speed > 0
+70: STO-Status
+71: Actual Speed within Window
+72: Actual Spped not within Window
+;
+
+IN1MODE
+0: Нет функции
+1: Failure Reset
+2-7: Нет функции
+8: selection Analog In 1/Analog In 2
+9: MT_No_Bit
+10: Intg.Off
+11: v/Torq.Contr.
+12: Reference
+13: digital encoder/SSI
+14: FError_clear
+15: Start_MT Next
+16: Start_MT No x
+17: Start_MT IO
+18: Ipeak2 x
+19: Нет функции
+20: Start_Jog v=x
+21: U_Mon.off
+22: MT Restart
+23: Start2_MT No x
+24: Switch over OPMODE
+25: Zero_latch
+26: Position Latch
+27: Emergency Stop
+28: Starting Jogmode
+29: Starting motion task / homing
+30: Command Buffer 1
+//31: ???
+32: Brake
+33: Command Buffer 1
+//34-35: ???
+36: Give Offset to Gearing Function
+//37: ???
+38: Enable signal for following motion task
+39: Constant velocity for defined time
+40: Additional hardware input
+41: Quick stop
+42: Activate/deactivate electronic gearing
+43: Activate/deactivate electronic gearing with position latch
+//44-48: ???
+49: emergency stop (sensorless)
+50: emergency stop (sensorless)
+51: Master slave synchronisation
+//52: ???
+53: Master slave synchronisation
+//54-56: ???
+57: switch to second parameter set
+//58-59: ???
+60: VOSPD-Switch
+61: Pulse Length on IN1
+;
+
+IN2MODE
+0: Нет функции
+1: Failure Reset
+2-7: Нет функции
+8: selection Analog In 1/Analog In 2
+9: MT_No_Bit
+10: Intg.Off
+11: v/Torq.Contr.
+12: Reference
+13: digital encoder/SSI
+14: FError_clear
+15: Start_MT Next
+16: Start_MT No x
+17: Start_MT IO
+18: Ipeak2 x
+19: Нет функции
+20: Start_Jog v=x
+21: U_Mon.off
+22: MT Restart
+23: Start2_MT No x
+24: Switch over OPMODE
+25: Zero_latch
+26: Position Latch
+27: Emergency Stop
+28: Starting Jogmode
+29: Starting motion task / homing
+30: Command Buffer 1
+//31: ???
+32: Brake
+33: Command Buffer 1
+//34-35: ???
+36: Give Offset to Gearing Function
+//37: ???
+38: Enable signal for following motion task
+39: Constant velocity for defined time
+40: Additional hardware input
+41: Quick stop
+42: Activate/deactivate electronic gearing
+43: Activate/deactivate electronic gearing with position latch
+//44-48: ???
+49: emergency stop (sensorless)
+50: emergency stop (sensorless)
+51: Master slave synchronisation
+//52: ???
+53: Master slave synchronisation
+//54-56: ???
+57: switch to second parameter set
+//58-59: ???
+60: VOSPD-Switch
+61: Pulse Length on IN1
+;
+
+IN3MODE
+0: Нет функции
+1: Failure Reset
+2-7: Нет функции
+8: selection Analog In 1/Analog In 2
+9: MT_No_Bit
+10: Intg.Off
+11: v/Torq.Contr.
+12: Reference
+13: digital encoder/SSI
+14: FError_clear
+15: Start_MT Next
+16: Start_MT No x
+17: Start_MT IO
+18: Ipeak2 x
+19: Нет функции
+20: Start_Jog v=x
+21: U_Mon.off
+22: MT Restart
+23: Start2_MT No x
+24: Switch over OPMODE
+25: Zero_latch
+26: Position Latch
+27: Emergency Stop
+28: Starting Jogmode
+29: Starting motion task / homing
+30: Command Buffer 1
+//31: ???
+32: Brake
+33: Command Buffer 1
+//34-35: ???
+36: Give Offset to Gearing Function
+//37: ???
+38: Enable signal for following motion task
+39: Constant velocity for defined time
+40: Additional hardware input
+41: Quick stop
+42: Activate/deactivate electronic gearing
+43: Activate/deactivate electronic gearing with position latch
+//44-48: ???
+49: emergency stop (sensorless)
+50: emergency stop (sensorless)
+51: Master slave synchronisation
+//52: ???
+53: Master slave synchronisation
+//54-56: ???
+57: switch to second parameter set
+//58-59: ???
+60: VOSPD-Switch
+61: Pulse Length on IN1
+;
+
+IN4MODE
+0: Нет функции
+1: Failure Reset
+2-7: Нет функции
+8: selection Analog In 1/Analog In 2
+9: MT_No_Bit
+10: Intg.Off
+11: v/Torq.Contr.
+12: Reference
+13: digital encoder/SSI
+14: FError_clear
+15: Start_MT Next
+16: Start_MT No x
+17: Start_MT IO
+18: Ipeak2 x
+19: Нет функции
+20: Start_Jog v=x
+21: U_Mon.off
+22: MT Restart
+23: Start2_MT No x
+24: Switch over OPMODE
+25: Zero_latch
+26: Position Latch
+27: Emergency Stop
+28: Starting Jogmode
+29: Starting motion task / homing
+30: Command Buffer 1
+//31: ???
+32: Brake
+33: Command Buffer 1
+//34-35: ???
+36: Give Offset to Gearing Function
+//37: ???
+38: Enable signal for following motion task
+39: Constant velocity for defined time
+40: Additional hardware input
+41: Quick stop
+42: Activate/deactivate electronic gearing
+43: Activate/deactivate electronic gearing with position latch
+//44-48: ???
+49: emergency stop (sensorless)
+50: emergency stop (sensorless)
+51: Master slave synchronisation
+//52: ???
+53: Master slave synchronisation
+//54-56: ???
+57: switch to second parameter set
+//58-59: ???
+60: VOSPD-Switch
+61: Pulse Length on IN1
+;
+
+ENCMODE
+0: X5 - (input)
+1: X5 - ROD (output)
+2: X5 - SSI (output)
+3: X5 - ROD (output)
+4: X1 - SSI (output)
+5: X1 - SSI (output)
+6-8: Зарезервировано
+9: X1 - ROD (output)
+10: X1 - SSI (output)
+11: Зарезервировано
+12: X1 - SSI (output)
+13: X1 - SSI (output)
+;
+
+FBTYPE
+0: Резольвер
+1: SinCos 5V
+2: Hiperface (Stegmann)
+3: SinCos 12V
+4: EnDAT (Heidenhain)
+5: SinCos with Hall
+6: SinCos 12V with Hall
+7: SinCos 5V mit W&S
+8: SinCos 12 V with W & S
+9: SSI
+10: Бессенсорный
+11: Hall only 5 V
+12: RS422 feedback device (A quad B) 24V level
+13: digital encoder 5V
+14: digital encoder 24V with Hall
+15: digital encoder 5V with Hall
+16: digital encoder 24V with W&S
+17: digital encoder 5V - W&S
+18: digital encoder 5V with Hall
+19: digital encoder 5V - W&S
+20: BISS - Feedback 5V - digital
+21: EnDat + W&S
+22: BISS - Feedback 12V - digital
+23: BISS Feedback 5V - analog
+24: BISS Feedback 12V - analog
+25: only S700: SSI
+26: only S700: SSI - linear feedback
+27: digital encoder 5V (|MPHASE| from EEPROM)
+28: SSI-Linear
+29: Не доступен
+30: ROD with W&S
+31: ROD
+32: EnDAT (Heidenhain)
+33: BiSS-C 5V - digital
+;

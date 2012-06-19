@@ -1,0 +1,11 @@
+command 
+variable rw 
+variable ro 
+- 
+
+multi-line return command 
+  
+variable r 
+variabler w 
+variable w 
+rw 

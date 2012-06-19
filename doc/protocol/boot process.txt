@@ -1,0 +1,23 @@
+serial done
+booting...
+init flash
+copy boot2
+start BOOT2
+Cache enabled
+copy FPGA_S3 to DRAM: O.K.
+FPGA Done
+copy MOTOR to DRAM: O.K.
+copy LOOKUP to DRAM: O.K.
+copy MTASK to DRAM: O.K.
+no PLC128 !!!
+no PLC64 !!!
+copy COGDATA to DRAM: O.K.
+copy FIRMWARE to DRAM: O.K.
+disabling interrupts
+starting firmware 5.18 at address 20060080
+encoder data O.K (0)
+Init Rs232
+CMD_TAB O.K.
+No PLC program !
+
+-->

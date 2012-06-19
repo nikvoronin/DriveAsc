@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6948E262-F5BC-415F-8C0E-B48F20D3CB64}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DriveASC</RootNamespace>
+    <AssemblyName>DriveASC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.3.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>driveasc-app-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DriveASC.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entity\ValueItem.cs" />
+    <Compile Include="manage\Scope.cs" />
+    <Compile Include="entity\ScopeChannel.cs" />
+    <Compile Include="entity\ScopeCursor.cs" />
+    <Compile Include="entity\ScopeTick.cs" />
+    <Compile Include="manage\DimParser.cs" />
+    <Compile Include="manage\Km.cs" />
+    <Compile Include="events\DataReadyEventArgs.cs" />
+    <Compile Include="entity\Group.cs" />
+    <Compile Include="events\PartDataReadyEventArgs.cs" />
+    <Compile Include="entity\Command.cs" />
+    <Compile Include="manage\GSet.cs" />
+    <Compile Include="events\ProgressChangedUserState.cs" />
+    <Compile Include="entity\Template.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manage\Utils.cs" />
+    <Compile Include="manage\ValueParser.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\ColorComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ui\ErrorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\ErrorsForm.Designer.cs">
+      <DependentUpon>ErrorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\SetBitValueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\SetBitValueForm.Designer.cs">
+      <DependentUpon>SetBitValueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\PanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ui\ScopeCanvasUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\ScopeCanvasUC.Designer.cs">
+      <DependentUpon>ScopeCanvasUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\ScopeChannelsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\ScopeChannelsForm.Designer.cs">
+      <DependentUpon>ScopeChannelsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\SetListValueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\SetListValueForm.Designer.cs">
+      <DependentUpon>SetListValueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\SetValueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\SetValueForm.Designer.cs">
+      <DependentUpon>SetValueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\ListViewColumnSorter.cs" />
+    <Compile Include="ui\ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\ErrorsForm.resx">
+      <DependentUpon>ErrorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\SetBitValueForm.resx">
+      <DependentUpon>SetBitValueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\ScopeCanvasUC.resx">
+      <DependentUpon>ScopeCanvasUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\ScopeChannelsForm.resx">
+      <DependentUpon>ScopeChannelsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\SetListValueForm.resx">
+      <DependentUpon>SetListValueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\SetValueForm.resx">
+      <DependentUpon>SetValueForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\commands.list" />
+    <EmbeddedResource Include="data\values.list" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="data\multipurpose.groups" />
+    <EmbeddedResource Include="data\cnc-servo-analog.groups" />
+    <None Include="Resources\plug-connect.png" />
+    <None Include="Resources\plug-disconnect.png" />
+    <None Include="Resources\status-disconnect.png" />
+    <None Include="Resources\status-connect.png" />
+    <Content Include="driveasc-app-icon.ico" />
+    <Content Include="history.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\connected_green_lamp.png" />
+    <None Include="Resources\disconnected_red_lamp.png" />
+    <None Include="Resources\coldstart.png" />
+    <None Include="Resources\save-to-eeprom.png" />
+    <None Include="Resources\software-disable.png" />
+    <None Include="Resources\software-enable.png" />
+    <None Include="Resources\scope-record.png" />
+    <None Include="Resources\scope-stop.png" />
+    <None Include="Resources\scope-save.png" />
+    <None Include="Resources\scopel-open.png" />
+    <None Include="Resources\scope-zoomin.png" />
+    <None Include="Resources\scope-zoomout.png" />
+    <None Include="Resources\scope-save-image.png" />
+    <None Include="Resources\scope_cursor_1.png" />
+    <None Include="Resources\scope_cursor_2.png" />
+    <None Include="Resources\blue-document-medium.png" />
+    <None Include="Resources\cross-circle.png" />
+    <None Include="Resources\information-button.png" />
+    <None Include="Resources\target.png" />
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,661 @@
+\ [Data] 
+ACC [Data] 
+ACC_X [Data] 
+ACCR [Data] 
+ACCUNIT [Data] 
+ACTFAULT [Data] 
+ACTIVE 
+ACTRS232 [Data] 
+ADDR [Data] 
+AENA [Data] 
+ALIAS [Data] 
+AN11NR [Data] 
+AN11RANGE [Data] 
+AN1TRIG [Data] 
+AN1TRIG [Data] 
+ANCNFG [Data] 
+ANDB [Data] 
+ANIN1 [Data] 
+ANIN2 [Data] 
+ANIN3 [Data] 
+ANIN4 [Data] 
+ANOFF1 [Data] 
+ANOFF2 [Data] 
+ANOFF3 [Data] 
+ANOFF4 [Data] 
+ANOUT1 [Data] 
+ANOUT2 [Data] 
+ANZERO1 
+ANZERO2 
+ANZERO3 
+ANZERO4 
+ARHPD [Data] 
+ARHPF [Data] 
+ARLP2 [Data] 
+ARLPD [Data] 
+ARLPF [Data] 
+ASMWAIT [Data] 
+AUTOHOME [Data] 
+AVZ1 [Data] 
+AVZ2 [Data] 
+BCC 
+BCCOT [Data] 
+BISSCNFG [Data] 
+BQMODE [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP2 [Data] 
+BUSP3 [Data] 
+BUSP4 [Data] 
+BUSP5 [Data] 
+BUSP6 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+BUSP1 [Data] 
+CALCCOG [Data] 
+CALCHP [Data] , [Data] 
+CALCMP [Data] 
+CALCMP [Data] 
+CALCPOSIO [Data] 
+CALCRK [Data] 
+CALCRP 
+CANDUMP [Data] 
+CANSDO [Data] 
+CBAUD [Data] 
+CCSAVE [Data] 
+CINPOS [Data] 
+CLRFAULT 
+CLRHR 
+CLRORDER [Data] 
+CLRWARN [Data] 
+CMDDLY [Data] 
+COGFILT [Data] 
+COGMODE [Data] 
+COGRED [Data] 
+COLDSTART 
+CONTINUE 
+CPHASE [Data] 
+CTUNE [Data] 
+CUPDATE 
+DAOFFSET1 [Data] 
+DAOFFSET2 [Data] 
+DEC [Data] 
+DEC_X [Data] 
+DECDIS [Data] 
+DECR [Data] 
+DECSTOP [Data] 
+DENA [Data] 
+DI2T [Data] 
+DICONT 
+DIFVAR 
+DILIM [Data] 
+DIPEAK 
+DIR [Data] 
+DIROUT [Data] 
+DIS 
+DISDPR [Data] 
+DNBAUD [Data] 
+DNDUMP [Data] 
+DNMACID [Data] 
+DOVRIDE [Data] 
+DPRILIMIT [Data] 
+DPRSTATE [Data] 
+DPWM [Data] 
+DR_TYPE 
+DREF [Data] 
+DRIVE [Data] 
+DRVCNFG [Data] 
+DRVCNFG [Data] 
+DRVCNFG [Data] 
+DRVSTAT 
+DRVSTAT2 [Data] 
+DUMP 
+DUMPSLNO [Data] 
+EGEARI [Data] 
+EGEARO [Data] 
+EMRGTO [Data] 
+EN 
+ENCIN [Data] 
+ENCLINES [Data] 
+ENCMODE [Data] 
+ENCOUT [Data] 
+ENCTO [Data] 
+ENCVON [Data] 
+ENCZERO [Data] 
+ENGAGE [Data] 
+ERESMASK [Data] 
+ERND [Data] 
+ERRCNFG [Data] 
+ERRCODE 
+ERRCODE * 
+ERRCODE2 [Data] 
+ERRPARAM [Data] 
+ERRTIME [Data] 
+- 
+ETHMODE [Data] 
+EXTBRAKE [Data] 
+EXTLATCH [Data] 
+EXTPOS [Data] 
+EXTWD [Data] 
+FBTYPE [Data] 
+FBTYPEX [Data] 
+FFTSW [Data] 
+FILTMODE [Data] 
+FLTCNT 
+FLTCNT * 
+FLTHIST 
+FLTHIST * 
+FW 
+GEARFILT [Data] 
+GEARI [Data] 
+GEARMODE [Data] 
+GEARO [Data] 
+GET 
+GF [Data] 
+GFTN [Data] 
+GP [Data] 
+GP [Data] 
+GPFFT [Data] 
+GPFFT [Data] 
+GPFFTV [Data] 
+GPFFV [Data] 
+GPFFV [Data] 
+GU [Data] 
+GUTN [Data] 
+GV [Data] 
+GV [Data] 
+GVFR [Data] 
+GVFR [Data] 
+GVTN [Data] 
+GVTN [Data] 
+HALLDIR [Data] 
+HDUMP 
+HELP <Data> 
+HICOFFS [Data] 
+HIFACT1 [Data] 
+HISOFFS [Data] 
+HLIMIT1 [Data] 
+HLIMIT2 [Data] 
+HLIMIT3 [Data] 
+HSAVE 
+HVER 
+I 
+I2TLIM [Data] 
+ICMD 
+ICMDVLIM [Data] 
+ID 
+IDDUMP [Data] 
+IDUMP 
+IEXTT [Data] 
+IN 
+IN1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IN1HCMD [Data] 
+IN1LCMD [Data] 
+IN1MODE [Data] 
+IN1TRIG [Data] 
+IN2 
+
+
+
+
+
+
+
+
+
+IN2HCMD [Data] 
+IN2LCMD [Data] 
+IN2MODE [Data] 
+IN2PM [Data] 
+IN2TRIG [Data] 
+IN3 
+IN3HCMD [Data] 
+IN3LCMD [Data] 
+IN3MODE [Data] 
+IN3TRIG [Data] 
+IN4 
+IN4HCMD [Data] 
+IN4LCMD [Data] 
+IN4MODE [Data] 
+IN4TRIG [Data] 
+IN20MODE [Data] 
+IN5 ... IN20 
+IN1MODE [Data] 
+IN1TRIG [Data] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INPOS 
+INPT [Data] 
+INPT1 [Data] 
+INS0 
+INS1 
+INS2 
+INS3 
+INS4 
+INS5 
+INS6 
+INS7 
+INS8 
+INTERPOL [Data] 
+IOLINK [Data] 
+IPEAK [Data] 
+IPEAKN [Data] 
+IPEAKP [Data] 
+IQ 
+IQFILTK [Data] 
+IQFILTTAU [Data] 
+ISCALE1 [Data] 
+ISCALE2 [Data] 
+ISTFR [Data] 
+J [Data] 
+K 
+KC [Data] 
+KC [Data] 
+KEYLOCK [Data] 
+KTN [Data] 
+KTN [Data] 
+LASTWMASK 
+LATCH16N 
+LATCH1N32 
+LATCH1P16 
+LATCH1P32 
+LATCH2N16 
+LATCH2N32 
+LATCH2P16 
+LATCH2P32 
+LDUMP [data] 
+LED1 [Data] 
+LED2 [Data] 
+LED3 [Data] 
+LEDSTAT [Data] 
+LIST 
+LOAD 
+M [Data] 
+M_RESET 
+
+
+MAXTEMPE [Data] 
+MAXTEMPH [Data] 
+MAXTEMPM [Data] 
+MBPDRVSTAT [Data] 
+MBRAKE [Data] 
+MCFW [Data] 
+MCOSPHI [Data] 
+MDBCNT 
+MDBGET 
+MDBLIST [*] 
+MDBSET [Data] 
+
+MFR [Data] 
+MH 
+MI2T [Data] 
+MICONT [Data] 
+MICONT [Data] 
+MIMR [Data] 
+MIPEAK [Data] 
+MIPEAK [Data] 
+MJ [Data] 
+MJ [Data] 
+MJOG 
+MKT [Data] 
+MKT [Data] 
+L [Data] 
+L [Data] 
+MLGC [Data] 
+MLGC [Data] 
+MLGD [Data] 
+MLGD [Data] 
+MLGP [Data] 
+MLGP [Data] 
+MLGQ [Data] 
+MLGQ [Data] 
+MNAME [Data] 
+MNUMBER [Data] 
+MONITOR1 [Data] 
+MONITOR2 [Data] 
+MOVE [Data] 
+MPHASE [Data] 
+MPHASE2 [Data] 
+MPITCH [Data] 
+MPKD [Data] 
+MPKI [Data] 
+MPKP [Data] 
+MPOLES [Data] 
+MPOLES [Data] 
+MPR [Data] 
+MPTIME [Data] 
+MRESBW [Data] 
+MRESPOLES [Data] 
+MRS [Data] 
+MRS [Data] 
+MSERIALNO [Data] 
+MSG [Data] 
+MSLBRAKE [Data] 
+MSPEED [Data] 
+MTANGLP [Data] 
+MTIME [Data] 
+MTIME [Data] 
+MTMUX [Data] 
+MTR [Data] 
+MTYPE [Data] 
+MUR [Data] 
+MVANGLB [Data] 
+MVANGLF [Data] 
+MVANGLP [Data] 
+MVER [Data] 
+MVR [Data] 
+NONBTB [Data] 
+NREF [Data] 
+NREFMT [Data] 
+O_ACC1 [Data] 
+O_C [Data] 
+O_DEC1 [Data] 
+O_FN [Data] 
+O_FT [data] 
+O_P [data] 
+
+O_V [data] 
+O1 [data] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+O1MODE [Data] 
+O1TRIG [Data] 
+O2 [Data] 
+O2MODE [Data] 
+O2TRIG [Data] 
+
+O1 [data] 
+O1MODE [Data] 
+O1TRIG [Data] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OCOPY <Data> [ - Data] <data> 
+OLIST [Data] [Data] 
+OPMODE [Data] 
+OPTION 
+ORDER [Data1...Data10] 
+OTUNE [Data] 
+OVRIDE [Data] 
+P [Data] 
+
+P1 [Data] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PARCNFG [Data] 
+PARDUMP [Data] 
+PARRST [Data] 
+PASS [Data] 
+PASSCNFG [Data] 
+PASSX [Data] 
+PBAL 
+PBALMAX [Data] 
+PBALRES [Data] 
+PBAUD 
+PE 
+PEINPOS [Data] 
+PEMAX [Data] 
+PFB 
+PFB0 
+PHBHI [Data] 
+PGEARI [Data] 
+PGEARO [Data] 
+PIOBUF 
+P [Data] 
+PMODE [Data] 
+PNOID 
+POSCNFG [Data] 
+POSRSTAT [Data] 
+PPOTYP 
+PRBASE [Data] 
+PRD 
+PROMPT [Data] 
+PSTATE 
+PSTEP [Data] 
+PTARGET 
+PTBASE [Data] 
+PTMIN [Data] 
+PUNIT [Data] 
+PV 
+PVMAX [Data] 
+PVMAXN [Data] 
+PVMAX [Data] 
+
+
+
+
+
+
+
+READY 
+RECDONE 
+RECING 
+RECOFF 
+RECORD [Data] 
+RECRDY 
+RECTRIG [Data] 
+REFIP [Data] 
+
+REFLS [Data] 
+REFMODE [Data] 
+REFNOFFS [Data] 
+REFNPOS [Data] 
+REFPOS [Data] 
+REMOTE 
+RESOLVER [Data] 
+RESPHASE [Data] 
+RK [Data] 
+ROFFS [Data] 
+ROFFSABS [Data] 
+ROFFSSSI [Data] 
+RS232T [Data] 
+RSTVAR 
+S 
+SAVE 
+SBAUD [Data] 
+SDLY [Data] 
+SERCERR [Data] 
+SERCLIST [Data] 
+SERCOS [Data] 
+SERCSET [Data] 
+SERIALNO 
+SETREF 
+SKIP1SP [Data] 
+SKIP1SP [Data] 
+SKIP1SP [Data] 
+SKIP1SP [Data] 
+SLEN [Data] 
+SLOTIO 
+SLTEMPM [Data] 
+SMNUMBER [Data] 
+SOFTIN [Data] 
+SOFTOUT [Data] 
+SPHAS 
+SRND [Data] 
+SSIGRAY [Data] 
+SSIINV [Data] 
+SSIRESOL [Data] 
+SSIREVOL [Data] 
+SSIRXD [Data] 
+SSITOUT [Data] 
+SSTAT [Data] 
+- 
+STAT 
+STATCODE 
+STATCODE * 
+STATIO 
+STATUS 
+STEP [Data] 
+STOP 
+STOPMODE [Data] 
+SWCNFG [Data] 
+SWE1 [Data] 
+SWE2 [Data] 
+SYNCSRC [Data] 
+T [Data] 
+TASK 
+TBRAKE [Data] 
+TBRAKE0 [Data] 
+TEMPE 
+TEMPH 
+TEMPM 
+TRJSTAT 
+TRUN 
+TRUN 
+TSTEP [Data] 
+UCOMP [Data] 
+
+UMAX [Data] 
+UPDATE [Data] 
+UVLTMODE [Data] 
+V 
+VBUS 
+VBUSBAL [Data] 
+
+VBUSMAX 
+VBUSMIN [Data] 
+VBW 
+VCMD 
+VCOMM [Data] 
+VCTIME [Data] 
+VEL0 [Data] 
+VER [*] 
+VINPOS [Data] 
+VJOG [Data] 
+VLIM [Data] 
+VLIMN [Data] 
+VLIM [Data] 
+VLO [Data] 
+VMUL [Data] 
+VOLPD [Data] 
+VOHPF [Data] 
+VOLPD [Data] 
+VOSPD [Data] 
+VOSPDREF [Data] 
+VREF [Data] 
+VREF0 [Data] 
+VSCALE1 [Data] 
+VSCALE2 [Data] 
+VSTART [Data] 
+VSTFR [Data] 
+VTUNE [Data] 
+VUNIT [Data] 
+VWM [Data] 
+WMASK [Data] 
+WPOS 
+WPOSE 
+WPOSP [Data] 
+WPOSX [Data] 
+WSAMPL [Data] 
+WSCNFG [Data] 
+WSLOOP [Data] 
+WSTIME [Data] 
+WSTIME2 [Data] 
+WSTIME3 [Data] 
+ZERO 

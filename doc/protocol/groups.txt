@@ -1,0 +1,24 @@
+Communication 
+velocity 
+
+Setting-up Mode 
+- 
+Basic Setup 
+Analog I/O 
+Actual values 
+ - 
+Drive Status 
+Amplifier 
+Encoder 
+Feedback 
+Gearing 
+Oscilloscope 
+Position 
+PI-PLUS 
+Current 
+Digital I/O 
+Oscilloscope/Service 
+Motor 
+Position Data 
+Parameter Motion Task 
+Drive Status2 

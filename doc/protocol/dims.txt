@@ -1,0 +1,52 @@
+- 
+>> ACCUNIT 
+mV 
+
+  
+Hz 
+ms 
+10 ms 
+rpm 
+kBaud 
+% 
+A 
+CPR 
+Number and TRUN 
+(m/s)/m 
+VUNIT 
+A rms 
+A/10V 
+rpm (velocity) / ms (Time) 
+Centigrade Degrees 
+Ohms 
+ kgcm^2 
+mH 
+ratet to MLGQ 
+Electrical Degrees 
+um 
+Poles 
+W 
+s 
+V 
+ms, mm/sec ^2 
+Watt [W] 
+265m 
+PUNIT 
+Counts 
+ms (DurationN) / Velocity Units (velocityN) 
+1/4 ms 
+MBaud 
+m 
+ms (DurationN) / rpm (velocityN) 
+hhhhh:mm 
+ms (DurationN) / As (CurrentN) 
+Name 
+MSPEED 
+- / V 
+[VUNIT] 
+see VUNIT 
+( > VUNIT) 
+( >VUNIT) 
+VUNIT / 10 Vs 
+rpm / 10 Vs 
+Ms (DurationN) / rpm (velocityN) 

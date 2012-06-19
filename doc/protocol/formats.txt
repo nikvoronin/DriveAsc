@@ -1,0 +1,27 @@
+Unsigned8 
+Integer32 
+Integer16 
+Integer8 
+String 
+Float 
+- 
+
+Float 32 
+INT32 
+Integer 8 
+Int16 
+Integer24 
+1 x Integer32 + 32 x Integer16 
+20 x Integer32 
+Command 
+Float32 
+Integer64 
+Integer8 Integer8 
+Integer32 ... Integer32 
+Integer16 Integer32 Integer16 Integer32 
+7 x Integer8 
+Integer16 Integer32 Integer16 Integer16 Integer16 
+Integer16 Float Integer16 Float 
+Unsigned16 
+Intger32 
+Integer16 Float 
