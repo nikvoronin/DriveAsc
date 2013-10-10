@@ -100,7 +100,7 @@ namespace DriveASC.manage
 			{
 				ClosePort();
 
-				_port = new SerialPort(portName, 38400, Parity.None, 8, StopBits.One);
+				_port = new SerialPort(portName, 9600, Parity.None, 8, StopBits.One);
 				_port.WriteTimeout = TIMEOUT_SHORT;
 				_port.ReadTimeout = TIMEOUT_SHORT;
 				_port.ReadBufferSize = 80;

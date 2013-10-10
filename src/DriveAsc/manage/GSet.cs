@@ -13,8 +13,8 @@ namespace DriveASC.manage
 	public class GSet
 	{
 		public const string APP_NAME = "DriveASC";
-		public const string APP_VERSION = "1.3.0";
-		public const string APP_FULLVERSION = APP_VERSION + " (май 2013)";
+		public const string APP_VERSION = "1.3.1";
+		public const string APP_FULLVERSION = APP_VERSION + " (октябрь 2013)";
 		public const string APP_TITLE = APP_NAME + " " + APP_VERSION;
 		public const string REG_FILENAME = APP_NAME + ".lic";
 
