@@ -2,7 +2,7 @@
 
 Drive Advanced Servo Control.
 
-/// Picture here /
+![driveasc-1 3_2013-04-02__01](https://user-images.githubusercontent.com/11328666/205463128-6cc020d2-6124-496f-99fa-582852d34d65.png)
 
 ## Project Structure
 
@@ -17,7 +17,9 @@ There is a branch with the name `beckhoff-ax2k`. This is an adaptation for `Beck
 
 ## Kollmorgen S300/700
 
-1.3.0 (May 2013)
+### 1.3.0 (May 2013)
+
+![driveasc-1 3_2013-04-02__02](https://user-images.githubusercontent.com/11328666/205463131-5cd42e60-cbf7-441f-a3ab-e437bdf0c4f7.png)
 
 - Просмотр .CSV файлов осциллографа Kollmorgen DriveGUI.
 - Цифровой, шестиканальный осциллограф.
@@ -26,13 +28,17 @@ There is a branch with the name `beckhoff-ax2k`. This is an adaptation for `Beck
 - Автоматический контроль подключения/отключения/перезагрузки.
 - Многострочный терминал: возможность отправки списка команд.
 
-1.2.2 (Sep 2012)
+### 1.2.2 (Sep 2012)
 
-/// Picture here /
+See [user manual for v 1.2.2](doc/README.md).
+
+![main-window_v1 2 2](https://user-images.githubusercontent.com/11328666/205463092-3258ed4f-47b1-47da-9c84-0ebf36efc11c.png)
 
 ## Beckhoff AX2000
 
-Experimental adaptation for `Beckhoff AX2000`.
+An experimental adaptation for `Beckhoff AX2000` series servo drives.
+
+> git checkout `beckhoff-ax2k`
 
 1.3.1 (Oct 2013)
 
